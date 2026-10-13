@@ -57,9 +57,13 @@ input, button{
 }
 .form__title{
     font-size: 40px;
+    /* background-color: #f6cb1f;
+    border-radius: 15px;
+    max-width: 250px; */
+    font-weight: bolder;
     text-align: center;
     margin-bottom: 30px;
-    color: black;
+    color: #eace32;
 }
 .form__input-wrapper{
     margin-bottom: 26px;
@@ -102,7 +106,7 @@ input, button{
     opacity: 0;
 }
 .form__submit-btn:hover{
-    color: gray;
+    color: rgb(237, 232, 232);
     background-color: rgba(252, 232, 12, 0.674);
 }
 .form__input:focus{
